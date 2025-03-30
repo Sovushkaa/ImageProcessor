@@ -1,0 +1,13 @@
+add_executable(
+    image_processor
+    image_processor.cpp
+    bubbling.cpp
+    image.cpp
+    crop.cpp
+    edge_detection.cpp
+    gaussian_blur.cpp
+    grayscale.cpp
+    sharpening.cpp
+    negative.cpp
+    filters_controller.cpp
+)
